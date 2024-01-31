@@ -8,6 +8,9 @@ public class EnumExample {
         // Using enums in a switch statement
         Day today = Day.TUESDAY;
 
+        System.out.println(today.getClass());
+        System.out.println(today.getClass().getSuperclass());
+
         switch (today) {
             case MONDAY:
                 System.out.println("It's Monday!");
@@ -39,5 +42,7 @@ public class EnumExample {
         for (Day day : Day.values()) {
             System.out.println(day);
         }
+
+        
     }
 }
