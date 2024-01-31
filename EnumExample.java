@@ -6,7 +6,7 @@ enum Day {
 public class EnumExample {
     public static void main(String[] args) {
         // Using enums in a switch statement
-        Day today = Day.MONDAY;
+        Day today = Day.TUESDAY;
 
         switch (today) {
             case MONDAY:
